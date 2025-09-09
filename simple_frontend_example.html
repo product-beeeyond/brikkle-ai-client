@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brikkle Chatbot - Simplified</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .chat-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .chat-messages {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            background: #fafafa;
+        }
+        
+        .message {
+            margin-bottom: 15px;
+            padding: 10px 15px;
+            border-radius: 18px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+        
+        .user-message {
+            background: #667eea;
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+        
+        .bot-message {
+            background: white;
+            color: #333;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .chat-input {
+            display: flex;
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .chat-input input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            outline: none;
+            font-size: 14px;
+        }
+        
+        .chat-input button {
+            margin-left: 10px;
+            padding: 12px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .chat-input button:hover {
+            background: #5a6fd8;
+        }
+        
+        .chat-input button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .session-info {
+            padding: 10px 20px;
+            background: #e8f4fd;
+            border-bottom: 1px solid #d0e7f7;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 10px;
+            color: #666;
+        }
+        
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #c62828;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🏠 Brikkle Chatbot</h1>
+            <p>Nigeria's First Blockchain-Powered Real Estate Investment Platform</p>
+        </div>
+        
+        <div class="session-info" id="sessionInfo">
+            Session: <span id="sessionId">Starting new session...</span>
+            <button id="newChatButton" onclick="startNewChat()" style="float: right; background: #ff6b6b; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; font-size: 12px;">New Chat</button>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                👋 Hello! I'm your Brikkle assistant. I can help you with:
+                <br>• Investment opportunities and property tokenization
+                <br>• Account setup and verification
+                <br>• Payment processes and transactions
+                <br>• Property due diligence
+                <br>• Technical support
+                <br><br>How can I assist you today?
+            </div>
+        </div>
+        
+        <div class="loading" id="loading">
+            🤖 Thinking...
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Ask me anything about Brikkle..." maxlength="1000">
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let sessionId = null;
+        const API_BASE_URL = 'http://localhost:8000/api/v1';
+        
+        // DOM elements
+        const messageInput = document.getElementById('messageInput');
+        const sendButton = document.getElementById('sendButton');
+        const chatMessages = document.getElementById('chatMessages');
+        const sessionInfo = document.getElementById('sessionId');
+        const loading = document.getElementById('loading');
+        
+        // Initialize session on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if we have a stored session ID
+            const storedSessionId = localStorage.getItem('brikkle_session_id');
+            if (storedSessionId) {
+                sessionId = storedSessionId;
+                sessionInfo.textContent = sessionId.substring(0, 8) + '...';
+                console.log('🔄 Restored existing session:', sessionId.substring(0, 8) + '...');
+            } else {
+                sessionInfo.textContent = 'Will create on first message';
+                console.log('🆕 No existing session found, will create new one on first message');
+            }
+        });
+        
+        // Send message function
+        async function sendMessage() {
+            const message = messageInput.value.trim();
+            if (!message) return;
+            
+            // Add user message to chat
+            addMessage(message, 'user');
+            
+            // Clear input and disable send button
+            messageInput.value = '';
+            sendButton.disabled = true;
+            loading.style.display = 'block';
+            
+            try {
+                // Prepare request body
+                const requestBody = {
+                    message: message,
+                    include_sources: false
+                };
+                
+                // Add session_id if we have one
+                if (sessionId) {
+                    requestBody.session_id = sessionId;
+                }
+                
+                // Send request to API
+                const response = await fetch(`${API_BASE_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                // Update session ID if this is a new session
+                if (data.session_id && data.session_id !== sessionId) {
+                    sessionId = data.session_id;
+                    localStorage.setItem('brikkle_session_id', sessionId);
+                    sessionInfo.textContent = sessionId.substring(0, 8) + '...';
+                    console.log('🆕 New session created:', sessionId.substring(0, 8) + '...');
+                } else if (data.session_id === sessionId) {
+                    console.log('🔄 Continuing existing session:', sessionId.substring(0, 8) + '...');
+                }
+                
+                // Add bot response to chat
+                addMessage(data.message, 'bot');
+                
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage('Sorry, I encountered an error. Please try again later.', 'bot');
+                addError('Connection error. Please check if the server is running.');
+            } finally {
+                // Re-enable send button and hide loading
+                sendButton.disabled = false;
+                loading.style.display = 'none';
+                messageInput.focus();
+            }
+        }
+        
+        // Add message to chat
+        function addMessage(content, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.textContent = content;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Add error message
+        function addError(message) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error';
+            errorDiv.textContent = message;
+            chatMessages.appendChild(errorDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Handle Enter key press
+        messageInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !sendButton.disabled) {
+                sendMessage();
+            }
+        });
+        
+        // Auto-focus input
+        messageInput.focus();
+        
+        // Function to start a new chat session
+        function startNewChat() {
+            // Clear the current session
+            sessionId = null;
+            localStorage.removeItem('brikkle_session_id');
+            
+            // Clear the chat messages
+            chatMessages.innerHTML = `
+                <div class="message bot-message">
+                    👋 Hello! I'm your Brikkle assistant. I can help you with:
+                    <br>• Investment opportunities and property tokenization
+                    <br>• Account setup and verification
+                    <br>• Payment processes and transactions
+                    <br>• Property due diligence
+                    <br>• Technical support
+                    <br><br>How can I assist you today?
+                </div>
+            `;
+            
+            // Update session info
+            sessionInfo.textContent = 'Will create on first message';
+            
+            console.log('🆕 Started new chat session');
+        }
+        
+        // Function to clear session on page refresh (optional - uncomment if needed)
+        // window.addEventListener('beforeunload', function() {
+        //     localStorage.removeItem('brikkle_session_id');
+        // });
+    </script>
+</body>
+</html>

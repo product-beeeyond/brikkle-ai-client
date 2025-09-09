@@ -1,0 +1,552 @@
+# Brikkle Knowledge Base: Complete User Guide and Reference
+
+## What is Brikkle?
+
+### Platform Overview
+Brikkle is Nigeria's first blockchain-powered real estate investment platform that democratizes property ownership through tokenization on the Stellar network. We enable Nigerians both at home and in the diaspora to invest in premium Nigerian real estate starting from just $5 (₦8,000), earning daily rental income and property appreciation without the traditional barriers of high capital requirements, complex documentation, or property management responsibilities.
+
+### Core Value Proposition
+**Access**: Invest in Lagos, Abuja, and Port Harcourt properties with a $5 minimum investment, compared to traditional ₦8-50 million property purchases. **Returns**: Earn 8-15% annual returns through automated daily rental distributions plus property appreciation. **Transparency**: Every transaction recorded on Stellar blockchain with real-time property performance tracking. **Professional Management**: Properties managed by vetted Nigerian property management companies with IoT monitoring systems.
+
+### How Brikkle Works
+Properties are tokenized as Stellar assets representing fractional ownership. Each property token gives you proportional rights to rental income and appreciation. Tokens are tradeable 24/7 on Brikkle's integrated AMM marketplace, providing instant liquidity. Smart contracts automate rent collection and distribution, eliminating traditional property management complexities.
+
+### Market Opportunity
+Nigeria faces a 22+ million housing unit deficit while property prices have grown 39.5% in Lagos alone. Our platform addresses this by enabling fractional investment in income-generating properties, targeting the 90% of aspiring Nigerian property investors currently excluded from the market due to high barriers.
+
+---
+
+## Getting Started with Brikkle
+
+### Account Creation and Verification
+
+**Step 1: Registration**
+Create your Brikkle account at app.brikkle.ai using your email address and phone number. Nigerian residents provide National Identity Number (NIN) and Bank Verification Number (BVN). Diaspora investors provide passport and proof of overseas residence.
+
+**Step 2: Identity Verification (KYC)**
+Upload required documents for compliance with CBN and SEC regulations. **For Nigerians**: NIN slip, valid ID, proof of address, BVN verification. **For Diaspora**: International passport, overseas address proof, source of funds declaration, tax identification from country of residence. Verification typically completes within 24-48 hours.
+
+**Step 3: Payment Setup**
+Link your preferred payment method. **Nigerian residents**: Bank account, card payments, USSD transfers. **Diaspora investors**: International wire transfer, stablecoins (USDC, USDT), major cryptocurrencies through our Stellar wallet integration. All payments converted to USD-pegged stablecoins for property investment.
+
+### Understanding Fractional Ownership
+
+**Tokenization Explained**
+Each property is divided into tokens representing fractional ownership. Example: ₦100 million Lagos property = 100,000 tokens at ₦1,000 each. Your 100-token investment gives you 0.1% ownership, entitling you to 0.1% of rental income and appreciation.
+
+**Investment Minimums**
+- **Absolute minimum**: $5 per property investment
+- **Practical minimum**: $50-100 for meaningful diversification
+- **No maximum limits**: Invest up to 10% of total property tokens
+- **Portfolio building**: Spread investments across multiple properties
+
+### Property Due Diligence
+
+**Property Information Available**
+Each property listing includes: professional valuation by certified Nigerian valuers, high-resolution photos and virtual tours, rental history and projected yields, legal documentation (Certificate of Occupancy, survey plans), property management company profile, neighborhood analysis with infrastructure scores, and environmental impact assessments.
+
+**Verification Standards**
+All properties undergo rigorous due diligence: title verification through Lagos State Government blockchain registry (where available), structural assessments by licensed engineers, market analysis by certified valuers, legal review by SEC-registered law firms, and property management company accreditation.
+
+**Document Access**
+Property documents stored on IPFS with blockchain hash verification. Access original Certificates of Occupancy, building approvals, survey documents, insurance policies, and property management agreements. All documents digitally signed and timestamped.
+
+### Making Your First Investment
+
+**Browse Properties**
+Use filters to find properties matching your criteria: location (Lagos, Abuja, Port Harcourt), property type (apartments, offices, mixed-use), price range, expected yield, and risk profile. Sort by popularity, yield, or recent performance.
+
+**Investment Process**
+Select property → Choose investment amount → Review transaction details → Confirm payment → Receive tokens instantly in your Brikkle wallet. Tokens appear immediately with full ownership rights activated.
+
+**Diversification Strategy**
+Recommended portfolio allocation: 40% Lagos properties (highest growth), 30% Abuja (stable government demand), 20% Port Harcourt (oil sector), 10% emerging markets. Diversify across property types: residential (steady income), commercial (higher yields), mixed-use (balanced returns).
+
+---
+
+## Property Investment and Tokenization
+
+### Stellar Blockchain Integration
+
+**Why Stellar for Real Estate**
+Stellar enables sub-penny transaction costs making micro-investments viable, built-in compliance tools meeting Nigerian regulatory requirements, 5-second transaction finality for instant property trading, and native multi-signature security for institutional-grade asset protection.
+
+**Token Standards**
+Brikkle property tokens are native Stellar assets with built-in features: **AUTH_REQUIRED** for KYC compliance, **CLAWBACK_ENABLED** for regulatory compliance, **transferable** between verified accounts, and **fractional** with up to 7 decimal places for precise ownership.
+
+**Smart Contract Functionality**
+Soroban smart contracts automate: monthly rental collection and distribution, property management fee calculation, token holder voting for major property decisions, automatic reinvestment options, and yield optimization strategies.
+
+### Property Selection Process
+
+**Market Analysis**
+Properties selected based on: location fundamentals (infrastructure, transportation, growth prospects), rental demand analysis (occupancy rates, tenant quality), financial performance (cap rates, cash-on-cash returns), development potential (zoning, expansion possibilities), and professional management availability.
+
+**Developer Partnerships**
+Brikkle partners with verified Nigerian developers including Mixta Nigeria, UPDC, Landmark Africa, and emerging PropTech-enabled developers. All partners undergo financial due diligence, track record verification, and continuous performance monitoring.
+
+**Property Categories**
+- **Prime Residential**: Lagos Ikoyi/VI apartments, Abuja Maitama properties (6-8% yields)
+- **Affordable Housing**: Middle-income developments (8-12% yields) 
+- **Commercial Properties**: Office buildings, retail spaces (varies by location)
+- **Mixed-Use**: Residential-commercial combinations (balanced risk-return)
+- **Short-Let Properties**: Serviced apartments for tourism (10-15% yields)
+
+### Ownership Structure and Legal Framework
+
+**Legal Entity Structure**
+Each tokenized property held by Special Purpose Vehicle (SPV) incorporated in Nigeria. Token holders are beneficial owners with proportional rights to income and appreciation. Structure designed for tax efficiency and regulatory compliance.
+
+**Voting Rights**
+Token holders vote on major property decisions: property manager changes (requires 60% approval), capital improvements above ₦5 million, refinancing decisions, and property sale authorization. Voting power proportional to token ownership.
+
+**Exit Mechanisms**
+Multiple liquidity options: trade tokens on Brikkle's AMM marketplace (instant settlement), participate in property sale distributions, redeem tokens for NAV during quarterly windows, and transfer tokens to other verified Brikkle users.
+
+### Asset-Backed Credit Facility
+
+**Credit Against Property Tokens**
+Borrow against your property token portfolio at competitive rates. **Loan-to-Value**: Up to 60% of token portfolio value. **Interest rates**: 12-18% annually (competitive with Nigerian markets). **Collateral**: Property tokens automatically locked as collateral. **Use cases**: Additional property investments, personal financing, business capital.
+
+**Automated Risk Management**
+Smart contracts monitor collateral ratios continuously. Margin calls triggered at 75% LTV with 48-hour response window. Automatic partial liquidation prevents total portfolio loss. Real-time portfolio valuation using multiple market sources.
+
+---
+
+## Earning Returns and Income Distribution
+
+### Daily Rental Income Distribution
+
+**Automated Collection System**
+Property management companies collect rent from tenants → funds deposited to property SPV account → smart contract distributes proportional shares to token holders → income appears in Brikkle wallets within 24 hours. All transactions recorded on Stellar blockchain for transparency.
+
+**Distribution Frequency**
+Daily distributions for properties with regular rental income. Weekly distributions for short-let properties with variable occupancy. Monthly distributions for commercial properties with quarterly rent payments. Special distributions for one-time income (security deposits, late fees).
+
+**Currency and Conversion**
+Rental income collected in Naira, converted to USD stablecoins for distribution. Exchange rates locked at collection time protecting against currency volatility. Option to receive distributions in Naira for Nigerian residents or maintain stablecoin exposure.
+
+**Yield Calculations**
+**Net Rental Yield** = (Annual rent income - management fees - taxes) / property value. **Cash-on-Cash Return** = Annual cash flow / invested amount. **Total Return** = Rental yield + appreciation. Historical yields: Lagos residential 6-8%, Abuja government area 5-7%, Port Harcourt commercial 8-12%.
+
+### Property Appreciation and Valuation
+
+**Monthly Valuation Updates**
+Professional valuations performed monthly by certified Nigerian valuers using comparable sales, income approach, and replacement cost methods. Valuations incorporate recent sales data, market trends, infrastructure developments, and macro-economic factors.
+
+**Appreciation Tracking**
+Token values updated monthly reflecting property appreciation. Example: ₦100M property appreciates to ₦110M = 10% token value increase. Appreciation compounds over time with market performance. Historical appreciation: Lagos 15-25% annually, Abuja 8-12%, emerging markets 20%+.
+
+**Market Data Sources**
+Valuation inputs from multiple sources: Nigeria Bureau of Statistics housing data, Central Bank real estate indices, private property portals (PropertyPro, Estate Intel), developer transaction data, and on-ground market surveys by local partners.
+
+### Tax Implications and Optimization
+
+**Nigerian Tax Treatment**
+**Capital Gains Tax**: 10% on property sale gains above ₦100M threshold. **Withholding Tax**: 10% on rental income (may be credited against personal income tax). **Corporate Tax**: Property SPVs structured for tax efficiency. **Stamp Duty**: Minimal on token transactions.
+
+**Diaspora Tax Considerations**
+**US Investors**: Rental income reportable as foreign income, potential Foreign Tax Credit for Nigerian taxes. **UK Investors**: Rental income subject to UK tax rates, mortgage interest relief may apply. **Double Taxation Treaties**: Available for US, UK, limited coverage for other countries. **Professional advice strongly recommended**.
+
+**Tax Documentation**
+Automated tax reporting for token holders. **Nigerian investors**: Pre-filled tax forms with income summaries. **Diaspora investors**: Foreign income statements for home country tax filing. **Detailed records**: All transactions, distributions, and appreciation tracked for audit purposes.
+
+---
+
+## Blockchain Technology and Security
+
+### Stellar Network Integration
+
+**Network Overview**
+Stellar processes over 4 million operations daily with 99.99% uptime. Network validated by trusted organizations including SDF, Keybase, and institutional validators. Energy-efficient consensus mechanism using less than 0.001% energy of Bitcoin.
+
+**Transaction Processing**
+Property token transfers settle in 5-6 seconds. Transaction costs under $0.00001 making micro-investments economical. Built-in atomic swaps enable instant currency conversions. Batch operations process multiple transactions efficiently.
+
+**Asset Control Features**
+**Authorization Controls**: Only KYC-verified users can hold property tokens. **Clawback Capability**: Regulatory compliance through asset recovery. **Freeze Functionality**: Temporary suspension for security or compliance. **Immutable Records**: All transactions permanently recorded and auditable.
+
+### AMM and Liquidity Provision
+
+**Automated Market Maker Integration**
+Brikkle's AMM enables 24/7 property token trading without traditional order books. Liquidity pools pair property tokens with stablecoins providing instant price discovery. **Trading fee**: 0.30% per transaction shared with liquidity providers.
+
+**Providing Liquidity**
+Earn additional returns by providing liquidity to property token pools. **Requirements**: Equal value of property tokens and stablecoins. **Returns**: Trading fees plus potential token incentives. **Risks**: Impermanent loss if token prices diverge significantly. **Pool sizes**: Minimum $10,000 for efficient operations.
+
+**Price Discovery Mechanism**
+Token prices determined by supply/demand in AMM pools. Arbitrage opportunities keep prices aligned with property valuations. **Slippage**: Large trades may impact prices, estimated before execution. **Market depth**: Deeper pools provide better price stability.
+
+### Wallet and Security Features
+
+**Brikkle Wallet Integration**
+Built-in Stellar wallet holds property tokens and stablecoins securely. **Security features**: Multi-signature support, hardware wallet integration, biometric authentication. **Recovery**: 12-word seed phrase backup with secure recovery process.
+
+**External Wallet Support**
+Compatible with popular Stellar wallets: LOBSTR, Solar Wallet, StellarTerm. **Import/Export**: Seamlessly move tokens between wallets. **DeFi Integration**: Access broader Stellar DeFi ecosystem while holding property tokens.
+
+**Security Best Practices**
+Enable two-factor authentication using Google Authenticator or SMS. Store seed phrases securely offline in multiple locations. Use strong, unique passwords with password managers. Regular security training provided through platform notifications and educational content.
+
+### Smart Contract Automation
+
+**Rental Income Distribution**
+Smart contracts automatically distribute rental payments proportional to token ownership. **Frequency**: Daily distributions for most properties. **Gas fees**: Minimal due to Stellar's low-cost architecture. **Transparency**: All distributions publicly verifiable on blockchain.
+
+**Property Management Integration**
+Smart contracts interface with property management systems for automated reporting. **Maintenance alerts**: Automatic notifications for property issues. **Tenant management**: Integration with tenant screening and rent collection systems. **Performance monitoring**: Real-time tracking of occupancy and rental performance.
+
+---
+
+## Regulatory Compliance and Legal Framework
+
+### Nigerian Regulatory Requirements
+
+**SEC Registration and Compliance**
+Brikkle operates under Securities and Exchange Commission (Nigeria) digital assets framework. **Company status**: SEC-registered Digital Asset Service Provider with ₦1 billion minimum capital. **Compliance officer**: Dedicated team ensuring ongoing regulatory adherence. **Reporting**: Monthly transaction reports and quarterly compliance certifications.
+
+**Central Bank of Nigeria (CBN) Compliance**
+**Banking relationships**: Designated accounts for virtual asset service providers. **AML/KYC**: Enhanced customer due diligence meeting CBN standards. **Transaction monitoring**: Real-time suspicious activity detection. **Reporting**: Monthly returns including transaction volumes and fraud incidents.
+
+**Real Estate Investment Regulations**
+Property SPVs structured as Real Estate Investment Companies under SEC rules. **Capital requirements**: Adequate reserves for property operations. **Distribution obligations**: Minimum 75% of rental income distributed annually. **Governance**: Regular board meetings and investor communications.
+
+### Know Your Customer (KYC) and Anti-Money Laundering (AML)
+
+**Identity Verification Process**
+**Nigerian residents**: NIN verification, BVN confirmation, proof of address, source of funds declaration. **Diaspora investors**: International passport, overseas residence proof, tax identification numbers, enhanced due diligence for high-value investors.
+
+**Ongoing Monitoring**
+**Transaction screening**: Real-time monitoring against sanctions and PEP databases. **Behavioral analysis**: Unusual transaction patterns flagged for review. **Risk scoring**: Dynamic risk assessment throughout customer relationship. **Suspicious Activity Reports**: Filed with Nigerian Financial Intelligence Unit within 24 hours.
+
+**Data Protection Compliance**
+Full compliance with Nigeria Data Protection Act 2023. **Consent management**: Clear opt-in for all data processing. **Data subject rights**: Access, correction, and deletion capabilities. **Cross-border transfers**: Adequate protection for diaspora investor data. **Privacy officer**: Dedicated role managing data protection compliance.
+
+### International Compliance
+
+**Diaspora Investor Regulations**
+**US investors**: Compliance with SEC regulations for foreign investment platforms. **UK investors**: FCA guidance on overseas investments. **Canadian investors**: Provincial securities regulation compliance. **Documentation**: Clear disclosure of risks and regulatory status in each jurisdiction.
+
+**Cross-Border Payments**
+**Foreign exchange compliance**: All international transfers through approved channels. **Certificate of Capital Importation**: Required documentation for foreign investments. **Repatriation rights**: Guaranteed for properly documented foreign investments. **Tax treaties**: Optimized structure leveraging double taxation agreements.
+
+### Legal Structure and Investor Protection
+
+**Special Purpose Vehicle (SPV) Structure**
+Each property held by dedicated Nigerian company. **Limited liability**: Investor exposure limited to investment amount. **Professional management**: Independent directors with real estate expertise. **Segregated assets**: Property assets separate from platform operational risks.
+
+**Investor Rights and Protections**
+**Voting rights**: Proportional to token ownership on major decisions. **Information rights**: Regular financial reporting and property updates. **Exit rights**: Multiple liquidity options including secondary market trading. **Dispute resolution**: Arbitration procedures with Lagos Court of Arbitration.
+
+**Insurance and Risk Management**
+**Property insurance**: Comprehensive coverage for all tokenized properties. **Professional indemnity**: Platform operator liability insurance. **Cyber security**: Insurance covering digital asset custody and platform operations. **Regular audits**: Annual compliance and security assessments by external firms.
+
+---
+
+## Diaspora Investment Guide
+
+### Getting Started from Abroad
+
+**Account Setup for Diaspora**
+**Enhanced KYC requirements**: International passport, proof of overseas residence (utility bills, bank statements), tax identification from country of residence, source of funds declaration (employment letter, bank statements, investment portfolio).
+
+**Payment Methods for International Investors**
+**Bank wire transfers**: USD, GBP, EUR accepted through correspondent banking relationships. **Cryptocurrency payments**: Bitcoin, Ethereum converted to stablecoins. **Digital wallets**: PayPal, Wise (formerly TransferWise), Remitly integration. **Stablecoins**: USDC, USDT preferred for faster settlement.
+
+**Currency and Exchange Rate Management**
+All property investments denominated in USD stablecoins providing currency stability. **Exchange rate protection**: No exposure to Naira volatility for diaspora investors. **Transparent pricing**: Single USD price displayed, no hidden conversion fees. **Distribution currency**: Choose between USD stablecoins or Naira for rental income.
+
+### Investment Strategies for Diaspora
+
+**Portfolio Diversification by Location**
+**Lagos focus (40% allocation)**: Highest growth potential, premium properties in Lekki, Victoria Island. **Abuja stable income (30%)**: Government area properties with diplomatic and civil service demand. **Port Harcourt value (20%)**: Oil industry connections, attractive yields. **Emerging markets (10%)**: Secondary cities with growth potential.
+
+**Risk-Return Optimization**
+**Conservative approach**: Focus on established areas with proven rental demand. **Growth strategy**: Higher allocation to emerging areas and development projects. **Income focus**: Short-let and commercial properties for higher yields. **Balanced portfolio**: Mix of property types and locations for optimal risk-adjusted returns.
+
+**Investment Timeline Considerations**
+**Short-term (1-3 years)**: Focus on income-generating properties with strong rental yields. **Medium-term (3-7 years)**: Balance of income and appreciation in developing areas. **Long-term (7+ years)**: Growth-focused strategy in emerging corridors and infrastructure development zones.
+
+### Tax and Legal Considerations
+
+**Nigeria Tax Obligations**
+**Non-resident taxation**: Income derived in Nigeria subject to withholding tax. **Capital gains threshold**: 10% tax on gains above ₦100 million. **Tax filing**: Generally not required for diaspora unless meeting residency tests. **Professional advice**: Recommended for significant investments.
+
+**Home Country Tax Implications**
+**Income reporting**: Rental income generally reportable in country of residence. **Foreign tax credits**: Nigerian taxes may offset home country liability. **Currency conversion**: Tax calculations at acquisition vs disposal exchange rates. **Investment structure**: May qualify for retirement account eligibility in some jurisdictions.
+
+**Estate Planning and Succession**
+**Digital asset inheritance**: Ensure beneficiaries have access to Brikkle account and wallet recovery information. **Cross-border estate issues**: Professional estate planning for international assets. **Family trust structures**: May be beneficial for larger diaspora investment portfolios.
+
+### Customer Support for Diaspora
+
+**Multi-Time Zone Support**
+**24/7 coverage**: Support teams in Lagos (WAT), London (GMT), and New York (EST) time zones. **Response guarantees**: Maximum 4-hour response for urgent issues, 24-hour for standard inquiries. **Video consultations**: Scheduled calls with investment advisors and technical support.
+
+**Communication Channels**
+**Primary support**: Email and in-app messaging with ticket tracking. **Emergency support**: WhatsApp hotline for urgent account or investment issues. **Community forums**: Diaspora investor discussion groups and educational webinars. **Social media**: Twitter, LinkedIn for platform updates and market insights.
+
+**Language and Cultural Support**
+**Multilingual capabilities**: English, Yoruba, Igbo, Hausa support staff. **Cultural awareness**: Understanding of diaspora investment motivations and family financial planning. **Educational resources**: Content tailored to diaspora investor needs and challenges.
+
+### Success Stories and Case Studies
+
+**Case Study 1: US-Based Nigerian Doctor**
+Dr. Adebayo, cardiac surgeon in Texas, invested $50,000 across 5 Lagos properties over 18 months. **Results**: 12% annual returns including 8% rental yield and 4% appreciation. **Strategy**: Focus on medical district properties with professional tenant base. **Outcome**: Building toward retirement property portfolio in Nigeria.
+
+**Case Study 2: UK Tech Professional**
+Folake, software engineer in London, dollar-cost averaged £2,000 monthly into diversified property portfolio. **Results**: Built £75,000 portfolio generating £4,500 annual income over 3 years. **Strategy**: Automated monthly investments across 12 different properties. **Plans**: Purchasing family compound in Ibadan using portfolio as collateral.
+
+**Case Study 3: Canadian Oil Worker**
+Emeka, petroleum engineer in Calgary, leveraged oil boom earnings into Brikkle investments. **Investment**: $100,000 concentrated in Port Harcourt commercial properties. **Returns**: 15% annual yields due to oil sector demand. **Strategy**: Geographic proximity to employment sector reduced risk perception.
+
+---
+
+## Fees and Pricing Structure
+
+### Platform Fees
+
+**Investment Transaction Fees**
+**Property token purchase**: 1.5% of investment amount covering due diligence, legal costs, and platform operations. **Secondary market trading**: 0.30% AMM trading fee shared with liquidity providers. **No withdrawal fees** for token transfers to external Stellar wallets.
+
+**Management and Service Fees**
+**Annual management fee**: 0.75% of token value covering property management oversight, compliance, and technology platform. **Performance fee**: 10% of returns above 8% annually, aligned with investor success. **Custody fees**: Included in management fee, no separate charges for secure token storage.
+
+**Payment Processing Fees**
+**Nigerian bank transfers**: Free for amounts above ₦50,000, ₦500 for smaller amounts. **International wire transfers**: Flat $25 fee regardless of amount. **Cryptocurrency deposits**: Network fees only (typically $1-5 for stablecoins). **Credit card payments**: 3.5% processing fee for immediate funding.
+
+### Property-Specific Costs
+
+**Property Management Fees**
+**Residential properties**: 8-12% of rental income for full-service management including tenant sourcing, maintenance, and reporting. **Commercial properties**: 5-8% of rental income due to longer lease terms and fewer management requirements. **Short-let properties**: 15-20% of income reflecting higher touch management requirements.
+
+**Regulatory and Compliance Costs**
+**Legal and audit fees**: Distributed among token holders proportional to ownership. **Government fees**: Property registration, taxes, and regulatory filings. **Insurance premiums**: Comprehensive property coverage including public liability and building insurance.
+
+**Maintenance and Capital Improvements**
+**Routine maintenance**: Funded from property operational reserves. **Major improvements**: Subject to token holder voting, funded through special assessments or refinancing. **Emergency repairs**: Immediate funding from reserves with subsequent token holder notification.
+
+### Transparency and Fee Disclosure
+
+**All-In Cost Examples**
+**Example 1**: ₦100,000 investment in Lagos apartment
+- Purchase fee: ₦1,500 (1.5%)
+- Annual management: ₦750 (0.75%)
+- Property management: 10% of rental income
+- Total first-year costs: approximately 3.5-4% of investment
+
+**Example 2**: $10,000 diaspora investment
+- Purchase fee: $150 (1.5%)
+- Wire transfer: $25
+- Annual management: $75 (0.75%)
+- Performance fee: 10% of returns above 8%
+- Total first-year costs: approximately $250-300
+
+**Fee Comparison with Traditional Investment**
+Traditional real estate investment costs: 10-15% upfront (legal, agent, survey, taxes), 15-25% annual management (if outsourced), 5-8% exit costs (sale commission, legal). **Brikkle advantage**: 60-80% lower total costs through technology and scale efficiencies.
+
+---
+
+## Account Management and Security
+
+### Account Settings and Profile Management
+
+**Profile Information**
+Update personal details including contact information, identity documents, and investment preferences. **Verification status**: Track KYC completion and document expiration dates. **Communication preferences**: Email, SMS, and in-app notification settings. **Language selection**: Platform interface available in English, Yoruba, Igbo, and Hausa.
+
+**Investment Preferences and Risk Profile**
+**Risk assessment**: Periodic questionnaires determining suitable investment categories. **Investment goals**: Income focus vs growth objectives. **Geographic preferences**: Allocation limits by city or region. **Automated investing**: Dollar-cost averaging and rebalancing settings.
+
+### Portfolio Management
+
+**Dashboard Overview**
+Real-time portfolio value with daily performance updates. **Asset allocation**: Breakdown by property, location, and property type. **Income tracking**: Cumulative rental income received and pending distributions. **Performance analytics**: Returns vs Nigerian real estate indices and inflation.
+
+**Transaction History**
+Complete record of all investments, sales, and distributions. **Tax reporting**: Downloadable statements for Nigerian and international tax filing. **Document archive**: Access to all property documents, contracts, and legal filings. **Blockchain verification**: Links to Stellar explorer for transaction verification.
+
+**Automated Features**
+**Dividend reinvestment**: Automatically reinvest rental income into selected properties. **Rebalancing**: Maintain target allocation percentages through automated trading. **Dollar-cost averaging**: Regular investment amounts on scheduled basis. **Alert system**: Price movements, yield changes, and market opportunities.
+
+### Security Features and Best Practices
+
+**Multi-Factor Authentication**
+**Required security measures**: SMS verification, Google Authenticator, or hardware security keys. **Backup codes**: Emergency access codes stored securely offline. **Device management**: Register and monitor access devices with location tracking. **Suspicious activity alerts**: Automatic notifications for unusual login patterns.
+
+**Wallet Security**
+**Private key management**: Seeds stored in secure, encrypted environment. **Recovery procedures**: 12-word seed phrase backup with secure storage recommendations. **Multi-signature options**: Additional security for large accounts through multiple authorization requirements. **Cold storage integration**: Hardware wallet support for maximum security.
+
+**Account Recovery and Support**
+**Password reset**: Multi-step verification process with identity confirmation. **Account lockout**: Automatic protection against brute force attacks. **Emergency contacts**: Authorized individuals for account recovery assistance. **Estate planning**: Beneficiary designation for digital asset inheritance.
+
+### Customer Support Services
+
+**Support Channels**
+**Primary support**: In-app messaging with integrated ticket system and response tracking. **Email support**: support@brikkle.ai with guaranteed 24-hour response for standard issues. **Phone support**: Nigerian hotline (+234-XXX) and international callback service. **Video consultations**: Scheduled calls for complex issues or investment planning.
+
+**Self-Service Resources**
+**Knowledge base**: Comprehensive guides, tutorials, and frequently asked questions. **Video library**: Platform tutorials and Nigerian real estate market education. **Webinar series**: Monthly educational sessions with market experts and platform updates. **Community forums**: User discussion groups and peer support.
+
+**Specialized Support Teams**
+**Technical support**: Platform functionality, wallet issues, and blockchain-related questions. **Investment advisory**: Property selection guidance and portfolio optimization. **Compliance support**: KYC, tax reporting, and regulatory questions. **Diaspora specialist team**: Dedicated support for international investors.
+
+---
+
+## Troubleshooting and Technical Support
+
+### Common Platform Issues
+
+**Login and Access Problems**
+**Forgot password**: Use email reset link, verify identity through SMS or email code, create new strong password. **Account locked**: Contact support with identity verification, common causes include multiple failed login attempts or suspicious activity detection. **Two-factor authentication issues**: Use backup codes, contact support to reset 2FA settings with identity verification.
+
+**Payment and Deposit Issues**
+**Bank transfer delays**: Nigerian transfers typically process within 2-4 hours, international wires may take 1-3 business days. **Cryptocurrency deposit not showing**: Check transaction status on blockchain explorer, contact support with transaction hash if delayed beyond 1 hour. **Failed payments**: Verify account details, ensure sufficient funds, check with bank for international transfer authorization.
+
+**Property Investment Problems**
+**Investment transaction failed**: Check payment method authorization, verify KYC completion status, ensure sufficient account balance including fees. **Tokens not received**: Investments typically complete within minutes, contact support if tokens not visible after 1 hour. **Cannot access property documents**: Ensure browser allows pop-ups, try different browser, contact support if persistent issues.
+
+### Blockchain and Wallet Issues
+
+**Stellar Wallet Problems**
+**Cannot see token balance**: Refresh wallet connection, verify trustline establishment for new assets, check network connectivity. **Transaction failed**: Insufficient XLM for fees, verify recipient address format, check account sequence number. **External wallet integration**: Ensure wallet supports Stellar assets, establish trustlines before receiving tokens.
+
+**Smart Contract Interactions**
+**Rental distribution not received**: Verify token ownership during distribution date, check for blockchain delays, contact support if distribution missing after 48 hours. **Voting transaction failed**: Ensure sufficient XLM for transaction fees, verify voting window still open, confirm authorization signatures.
+
+**AMM and Trading Issues**
+**Cannot trade tokens**: Verify trustlines for both assets, check minimum trade amounts, ensure sufficient balance for fees. **High slippage warning**: Indicates low liquidity, consider smaller trade size or contact support for large transactions. **Price discrepancy**: AMM prices may differ from valuations due to supply/demand, arbitrage opportunities typically resolve quickly.
+
+### Performance and Technical Issues
+
+**Platform Speed and Reliability**
+**Slow loading times**: Clear browser cache and cookies, try different browser, check internet connection speed, use mobile app as alternative. **Mobile app issues**: Update to latest version, restart app, clear app data if necessary, reinstall if persistent problems. **Real-time data delays**: Property prices and distributions typically update within 5 minutes, contact support if delays exceed 30 minutes.
+
+**Document and Report Access**
+**Cannot download tax reports**: Disable pop-up blockers, try different browser, ensure adequate storage space, contact support for manual report generation. **Property documents not loading**: Check PDF viewer settings, try different browser, contact support for alternative document access.
+
+### Account and Investment Issues
+
+**KYC and Verification Problems**
+**Document rejection**: Ensure clear, high-resolution images, verify all document corners visible, confirm document validity and expiration dates. **Verification delays**: Standard processing 24-48 hours, complex cases may require additional documentation, contact support for status updates. **International document issues**: Provide certified translations if required, ensure documents meet home country and Nigerian regulatory requirements.
+
+**Portfolio and Performance Issues**
+**Incorrect balance display**: Refresh page or app, allow time for blockchain synchronization, verify recent transaction completion. **Missing transaction history**: Check date filters, verify account consolidation if multiple emails used, contact support for comprehensive transaction reports. **Performance calculations seem wrong**: Verify investment dates and amounts, ensure understanding of fee impacts, request detailed performance breakdown from support.
+
+### Getting Help and Escalation
+
+**Support Response Times**
+**Standard issues**: 24-hour email response guarantee, faster resolution through in-app messaging. **Technical issues**: 4-hour response for platform functionality problems, immediate escalation for security concerns. **Investment emergencies**: Phone hotline for urgent trading or security issues, 24/7 coverage for account lockouts or suspicious activity.
+
+**Escalation Procedures**
+**Unsatisfied with initial response**: Request manager review through support ticket escalation. **Complex technical issues**: Direct referral to blockchain engineering team with detailed problem description. **Regulatory or legal concerns**: Escalation to compliance team with priority handling. **Serious complaints**: CEO escalation process for unresolved issues impacting investment safety.
+
+**Self-Help Resources**
+**Comprehensive FAQ**: Covers 90% of common questions with detailed explanations and screenshots. **Video tutorials**: Step-by-step guides for all platform functions. **Community support**: User forums moderated by Brikkle team with peer assistance and official answers. **Status page**: Real-time platform performance monitoring and scheduled maintenance notifications.
+
+---
+
+## Glossary of Terms
+
+### Real Estate Investment Terms
+
+**Automated Market Maker (AMM)**: Algorithm enabling 24/7 token trading without traditional order books, providing instant liquidity for property investments.
+
+**Asset-Backed Credit Facility**: Lending service allowing borrowing against property token portfolio as collateral, enabling leverage for additional investments.
+
+**Certificate of Occupancy (C of O)**: Legal document proving property ownership rights in Nigeria, equivalent to deed or title in other jurisdictions.
+
+**Cap Rate (Capitalization Rate)**: Net operating income divided by property value, used to evaluate property investment potential and compare opportunities.
+
+**Cash-on-Cash Return**: Annual cash flow divided by invested amount, measuring actual returns on capital deployed.
+
+**Fractional Ownership**: Investment model allowing multiple investors to own portions of single property, enabled through blockchain tokenization.
+
+**Impermanent Loss**: Potential loss when providing AMM liquidity, occurs when token prices diverge from initial deposit ratio.
+
+**Net Rental Yield**: Annual rental income minus expenses, divided by property value, representing actual investment returns.
+
+**Property Management Company**: Licensed firm responsible for day-to-day property operations including tenant management, maintenance, and rent collection.
+
+**Real Estate Investment Trust (REIT)**: SEC-regulated investment vehicle pooling investor funds for real estate investment, required to distribute 75% of income.
+
+**Special Purpose Vehicle (SPV)**: Dedicated legal entity holding individual property, providing liability protection and clear ownership structure.
+
+### Blockchain and Technology Terms
+
+**Blockchain Explorer**: Public website displaying all Stellar network transactions, enabling verification of token transfers and smart contract executions.
+
+**Clawback**: Stellar asset feature allowing token issuers to recover assets for regulatory compliance or security purposes.
+
+**Decentralized Exchange (DEX)**: Blockchain-based trading platform operating without central authority, enabling peer-to-peer token trading.
+
+**Gas Fees**: Transaction costs on blockchain networks, minimal on Stellar making micro-transactions economically viable.
+
+**IPFS (InterPlanetary File System)**: Decentralized storage network used to store property documents with blockchain hash verification.
+
+**Liquidity Pool**: Collection of tokens locked in smart contract providing liquidity for automated trading, earning fees for providers.
+
+**Multi-Signature (Multi-Sig)**: Security feature requiring multiple signatures for transaction authorization, providing additional security for high-value accounts.
+
+**Non-Fungible Token (NFT)**: Unique blockchain token representing specific asset ownership, potentially used for property title representation.
+
+**Private Key**: Cryptographic key providing access to blockchain wallet and assets, must be stored securely and never shared.
+
+**Smart Contract**: Self-executing contract with terms directly written into code, automating rental distributions and property management functions.
+
+**Stablecoin**: Cryptocurrency pegged to stable asset like US Dollar, providing price stability for property investments and distributions.
+
+**Stellar Asset**: Native token on Stellar blockchain representing any asset including property ownership, fiat currencies, or commodities.
+
+**Trustline**: Stellar account setting indicating willingness to hold specific asset, required before receiving new tokens.
+
+### Financial and Regulatory Terms
+
+**Anti-Money Laundering (AML)**: Regulatory framework preventing criminal money laundering through financial systems, requiring transaction monitoring and reporting.
+
+**Bank Verification Number (BVN)**: Unique identifier linking Nigerian bank accounts, required for financial services compliance.
+
+**Capital Gains Tax**: Tax on profit from asset sales, 10% rate in Nigeria for gains above ₦100 million threshold.
+
+**Central Bank of Nigeria (CBN)**: Nigeria's central bank regulating monetary policy, banking, and foreign exchange including digital asset guidelines.
+
+**Know Your Customer (KYC)**: Identity verification process required for financial services, involving document verification and identity confirmation.
+
+**National Identity Number (NIN)**: Unique identification number for Nigerian citizens and residents, required for financial service access.
+
+**Politically Exposed Person (PEP)**: Individual holding public office or related family members, requiring enhanced due diligence for financial transactions.
+
+**Securities and Exchange Commission Nigeria (SEC)**: Financial regulator overseeing investment products, exchanges, and digital asset service providers.
+
+**Suspicious Activity Report (SAR)**: Mandatory report filed by financial institutions when detecting potentially criminal transactions.
+
+**Virtual Asset Service Provider (VASP)**: SEC-regulated entity providing digital asset services including trading, custody, and transfer services.
+
+**Withholding Tax**: Tax deducted at source from rental income, 10% rate in Nigeria with potential credit against personal income tax.
+
+### Market and Investment Terms
+
+**Diaspora Remittances**: Money transfers from overseas Nigerians to homeland, totaling $20.93 billion annually and major economic driver.
+
+**Dollar-Cost Averaging**: Investment strategy involving regular fixed-amount investments regardless of price, reducing impact of market volatility.
+
+**Due Diligence**: Comprehensive investigation of investment opportunity including financial analysis, legal review, and risk assessment.
+
+**Exchange Rate Risk**: Potential loss due to currency fluctuations, mitigated through stablecoin investments and transparent pricing.
+
+**Investment Minimum**: Lowest amount required for investment, $5 for Brikkle vs ₦8-50 million for traditional Nigerian real estate.
+
+**Liquidity**: Ease of buying or selling investment, enhanced through AMM trading and secondary market access.
+
+**Market Capitalization**: Total value of all issued tokens for specific property, calculated as token price multiplied by total token supply.
+
+**Portfolio Diversification**: Spreading investments across multiple properties, locations, and types to reduce overall risk.
+
+**Risk-Adjusted Returns**: Investment returns considering risk level, used to compare opportunities with different risk profiles.
+
+**Total Return**: Combined income and appreciation returns, including rental yields plus property value increases.
+
+**Yield**: Annual income return on investment, typically 6-15% for Nigerian real estate depending on location and property type.
+
+---
+
+This comprehensive knowledge base provides the foundational information needed for Brikkle users to understand and successfully navigate blockchain-powered real estate investment in Nigeria. The structure enables AI agents to quickly locate relevant information for any user query while maintaining the depth necessary for both beginners and sophisticated investors. Regular updates will be required to maintain accuracy as the platform evolves and Nigerian regulations continue developing.
