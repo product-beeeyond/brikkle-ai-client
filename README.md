@@ -19,6 +19,9 @@ A RAG-powered chatbot for Brikkle, Nigeria's first blockchain-powered real estat
 pip install -r requirements.txt
 ```
 
+<!-- pip3 install faiss-cpu==1.10.0 --only-binary=:all:
+pip3 install -r requirements.txt -->
+
 ### 2. Set Up Environment Variables
 
 Copy the example environment file and configure it:
@@ -38,7 +41,7 @@ GOOGLE_API_KEY=your_google_generative_ai_api_key_here
 ```bash
 python app.py
 ```
-
+python3 app.py
 The API will be available at `http://localhost:8000`
 
 ### 4. Access API Documentation
