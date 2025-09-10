@@ -41,7 +41,7 @@ GOOGLE_API_KEY=your_google_generative_ai_api_key_here
 ```bash
 python app.py
 ```
-python3 app.py
+<!-- python3 app.py -->
 The API will be available at `http://localhost:8000`
 
 ### 4. Access API Documentation

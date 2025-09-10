@@ -29,7 +29,7 @@ class RAGService:
     def __init__(self, 
                  data_file_path: str = "data/data.txt",
                  vectorstore_path: str = "data/faiss_vectorstore",
-                 api_key: Optional[str] = None,
+                 api_key: Optional[str] = "AIzaSyCjIx6uWt01fHKwiaFY2HwJiXqL6ExO0_8",
                  embedding_model: str = "models/embedding-001"):
         """
         Initialize the RAG service.
