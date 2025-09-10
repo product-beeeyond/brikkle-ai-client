@@ -26,7 +26,7 @@ class ChatService:
     using LangChain and Google Generative AI.
     """
     
-    def __init__(self, api_key: Optional[str] = "AIzaSyCjIx6uWt01fHKwiaFY2HwJiXqL6ExO0_8",):
+    def __init__(self, api_key: Optional[str] = None,):
         """
         Initialize the chat service.
         
